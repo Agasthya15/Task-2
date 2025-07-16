@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Form & To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Form</h1>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <textarea id="message" placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMsg"></p>
+  </div>
+
+  <div class="layout">
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <main>Main Content</main>
+    <aside>Sidebar</aside>
+    <footer>Footer</footer>
+  </div>
+
+  <div class="todo-section">
+    <h2>To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Add a new task" />
+    <button onclick="addTask()">Add</button>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
